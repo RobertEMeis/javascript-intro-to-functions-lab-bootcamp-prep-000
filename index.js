@@ -12,11 +12,11 @@ console.log(string.toUpperCase());
 }
 
 
-sayHiToGrandma(string) {
+function logWhisper(string) {
 
-  if (string === string.toLowerCase()) {
-
-    return "I can't hear you!";
-  }
-
+  console.log(string.toLowerCase());
+  
 }
+
+
+
